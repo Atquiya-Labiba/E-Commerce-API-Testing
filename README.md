@@ -6,7 +6,7 @@ A manual API testing project for an e-commerce workflow using the DummyJSON REST
 
 The project focuses on positive and negative testing, response validation, API chaining, dynamic test data, and business-rule validation.
 
-🛠️ Tools
+### 🛠️ Tools
 
 * Postman — API testing & collection execution
 
@@ -14,7 +14,7 @@ The project focuses on positive and negative testing, response validation, API c
 
 * DummyJSON — REST API used for testing
 
-🧪 Tested
+### 🧪 Tested
 
 * Authentication
 
@@ -28,7 +28,7 @@ The project focuses on positive and negative testing, response validation, API c
 
 * Token and user-data extraction
 
-Products
+**Products**
 
 * Get all products
 
@@ -40,7 +40,7 @@ Products
 
 * Search with no matching results
 
-Cart
+**Cart**
 
 * Create a cart with a product
 
