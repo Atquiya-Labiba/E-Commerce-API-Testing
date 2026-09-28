@@ -2,44 +2,51 @@
 
 ## Project Overview
 
-This project demonstrates manual API testing using Postman by testing authentication and e-commerce workflows provided by the DummyJSON REST API.
+A manual API testing project for an e-commerce workflow using the DummyJSON REST API and Postman.
 
-## Tools Used
+The project focuses on positive and negative testing, response validation, API chaining, dynamic test data, and business-rule validation.
 
-* Postman
-* DummyJSON REST API
-* JavaScript (Postman Test Scripts)
+🛠️ Tools
 
-## APIs Tested
+* Postman — API testing & collection execution
 
-### Authentication
+* JavaScript — Postman test scripts
 
-* Login
-* Get User Profile
+* DummyJSON — REST API used for testing
 
-### Products
+🧪 Tested
 
-* Get All Products
-* Get Single Product
-* Update Product
-* Delete Product
+* Authentication
 
-### Cart
+* Successful login
 
-* Add to Cart
-* Get Cart Details
+* Invalid username/password
 
-## Features Implemented
+* Missing credentials
 
-* Bearer Token Authentication
-* Environment Variables
-* API Chaining
-* Dynamic Data Extraction
-* Response Validation
-* Status Code Validation
-* Response Time Validation
-* CRUD API Testing
-* Collection Runner Execution
+* Empty credentials
+
+* Token and user-data extraction
+
+Products
+
+* Get all products
+
+* Get single product
+
+* Search products
+
+* Invalid product ID
+
+* Search with no matching results
+
+Cart
+
+* Create a cart with a product
+
+* Validate user, product, quantity and totals
+
+* Invalid product ID
 
 ## How to Run
 
